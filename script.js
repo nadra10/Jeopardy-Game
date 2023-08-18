@@ -33,7 +33,7 @@ let newScore = document.querySelector(".score span")
  let score= 0;
 
 cards.forEach((card, index) => {
-    card.addEventListener('click', () => {
+    card.addEventListener('click', function () {
         getTheQuestion(index);
     });
     });
